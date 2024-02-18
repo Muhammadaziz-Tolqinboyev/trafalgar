@@ -1,0 +1,179 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.logo-link {
+	text-decoration-line: none;
+}
+
+.header-list {
+	list-style-type: none;
+}
+
+.header-item-link {
+	font-size: 18px;
+	color: #1f153480;
+	text-decoration-line: none;
+}
+
+.hero-title {	
+	font-size: 48px;
+}
+
+.hero-desc {
+	font-size: 21px;
+	color: #7d7987;
+}
+
+.hero-link {
+	font-size: 18px;
+	color: #fff;
+	background-color: #458ff6;
+	text-decoration-line: none;
+}
+
+.services-title {
+	font-size: 36px;
+	text-align: center;
+}
+
+.services-desc {
+	font-size: 18px;
+	color: #7d7987;
+	text-align: center;
+}
+
+.services-list {
+	list-style-type: none;
+}
+
+.services-item-title {
+	font-size: 24px;
+}
+
+.services-item-desc {
+	color: #7d7987;
+}
+
+.services-link {
+	font-size: 18px;
+	color: #458ff6;
+	text-decoration-line: none;
+}
+
+.healthcare-title {
+	font-size: 36px;
+}
+
+.healthcare-desc {
+	font-size: 18px;
+	color: #7d7987;
+}
+
+.healthcare-link {
+	font-size: 18px;
+	color: #7d7987;
+	text-decoration-line: none;
+}
+
+.download-title {
+	font-size: 36px;
+}
+
+.download-desc {
+	font-size: 18px;
+	color: #7d7987;
+}
+
+.download-link {
+	font-size: 18px;
+	color: #458ff6;
+	text-decoration-line: none;
+}
+
+.site-article {
+	background-image: linear-gradient(208deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+
+.article-title {
+	font-size: 36px;
+	color: #fff;
+}
+
+.article-founder-name {
+	font-size: 22px;
+	color: #fff;
+}
+
+.article-founder-desc {
+	font-size: 18px;
+	color: #ffffffd9;
+}
+
+.article-quote {
+	font-size: 19px;
+	color: #ffffffe6;
+}
+
+.blogs-title {
+	font-size: 36px;
+}
+
+.blogs-list {
+	list-style-type: none;
+}
+
+.blogs-item-title {
+	font-size: 21px;
+}
+
+.blogs-item-desc {
+	color: #7d7987;
+}
+
+.blogs-item-link {
+	font-size: 17px;
+	color: #4089ed;
+	text-decoration-line: none;
+}
+
+.blogs-link {
+	font-size: 18px;
+	color: #458FF6;
+}
+
+.site-footer {
+	background-image: linear-gradient(183deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+
+.footer-logo-link {
+	text-decoration-line: none;
+}
+
+.footer-desc {
+	font-size: 18px;
+	color: #fff;
+}
+
+.footer-span-text {
+	color: #fff;
+}
+
+.footer-strong-text {
+	font-size: 20px;
+	color: #fff;
+}
+
+.footer-list {
+	list-style-type: none;
+}
+
+.footer-item-link {
+	font-size: 18px;
+	color: #fff;
+	text-decoration-line: none;
+}

@@ -4,235 +4,296 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Trafalgar</title>
+		<link rel="stylesheet" href="./css/main.css" />
 	</head>
 	<body>
-		<header>
-			<div>
-				<a href="/">
+		<!-- Header start -->
+		<header class="site-header">
+			<div class="header-wrapper">
+				<a class="logo-link" href="/">
 					<img
+						class="logo-pic"
 						src="./images/logo.svg"
 						width="160"
 						height="41"
 						alt="This is Trafalgar company's logo image"
 					/>
 				</a>
-				<nav>
-					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Find a doctor</a></li>
-						<li><a href="#">Apps</a></li>
-						<li><a href="#">Testimonials</a></li>
-						<li><a href="#">About us</a></li>
+				<nav class="header-navbar">
+					<ul class="header-list">
+						<li class="header-item">
+							<a class="header-item-link" href="#">Home</a>
+						</li>
+						<li class="header-item">
+							<a class="header-item-link" href="#">Find a doctor</a>
+						</li>
+						<li class="header-item">
+							<a class="header-item-link" href="#">Apps</a>
+						</li>
+						<li class="header-item">
+							<a class="header-item-link" href="#">Testimonials</a>
+						</li>
+						<li class="header-item">
+							<a class="header-item-link" href="#">About us</a>
+						</li>
 					</ul>
 				</nav>
 			</div>
 		</header>
-		<main>
-			<section>
-				<div>
-					<div>
-						<h1>Virtual healthcarefor you</h1>
-						<p>
+		<!-- Header finish -->
+
+		<!-- Main begin -->
+		<main class="site-main">
+			<!-- Hero section start  -->
+			<section class="hero">
+				<div class="hero-wrapper">
+					<div class="hero-inner-wrapper">
+						<h1 class="hero-title">Virtual healthcarefor you</h1>
+						<p class="hero-desc">
 							Trafalgar provides progressive, and affordable healthcare,
 							accessible on mobile and online for everyone
 						</p>
-						<a href="#">Consult today</a>
+						<a class="hero-link" href="#">Consult today</a>
 					</div>
 					<img
+						class="hero-main-pic"
 						src="./images/mainsectionimage.png"
 						width="609"
 						height="532"
-						srcset="./images/mainsectionimage.png 1x, ./images/mainsectionimage@2x.png"
+						srcset="
+							./images/mainsectionimage.png    1x,
+							./images/mainsectionimage@2x.png
+						"
 						alt="This is Trafalgar company's main page image and as you can see in this image this company cares Virtual healthcare with people"
 					/>
 				</div>
 			</section>
-			<section>
-				<div>
-					<h2>Our services</h2>
-					<p>
+			<!-- Hero section finish -->
+
+			<!-- Services section start -->
+			<section class="services">
+				<div class="services-wrapper">
+					<h2 class="services-title">Our services</h2>
+					<p class="services-desc">
 						We provide to you the best choiches for you. Adjust it to your
 						health needs and make sure your undergo treatment with our highly
 						qualified doctors you can consult with us which type of service is
 						suitable for your health
 					</p>
 				</div>
-				<ol>
-					<li>
+				<ol class="services-list">
+					<li class="services-item">
 						<img
+							class="services-item-pic"
 							src="./images/searchimage.svg"
 							width="97"
 							height="94"
-							alt="This is serch icon image"
+							alt="This is search icon image"
 							loading="lazy"
 						/>
-						<h3>Search doctor</h3>
-						<p>
+						<h3 class="services-item-title">Search doctor</h3>
+						<p class="services-item-desc">
 							Choose your doctor from thousands of specialist, general, and
 							trusted hospitals
 						</p>
 					</li>
-					<li>
+					<li class="services-item">
 						<img
+							class="services-item-pic"
 							src="./images/pharmacyimage.svg.svg"
 							width="67"
 							height="91"
 							alt="This is pharmacy icon image"
 							loading="lazy"
 						/>
-						<h3>Online pharmacy</h3>
-						<p>
+						<h3 class="services-item-title">Online pharmacy</h3>
+						<p class="services-item-desc">
 							Buy your medicines with our mobile application with a simple
 							delivery system
 						</p>
 					</li>
-					<li>
+					<li class="services-item">
 						<img
+							class="services-item-pic"
 							src="./images/consultatonimage.svg"
 							width="71"
 							height="99"
 							alt="This is consultation icon image"
 							loading="lazy"
 						/>
-						<h3>Consultation</h3>
-						<p>
+						<h3 class="services-item-title">Consultation</h3>
+						<p class="services-item-desc">
 							Free consultation with our trusted doctors and get the best
 							recomendations
 						</p>
 					</li>
-					<li>
+					<li class="services-item">
 						<img
+							class="services-item-pic"
 							src="./images/infoimage.svg.svg"
 							width="71"
 							height="99"
 							alt="This is info icon image"
 							loading="lazy"
 						/>
-						<h3>Details info</h3>
-						<p>
+						<h3 class="services-item-title">Details info</h3>
+						<p class="services-item-desc">
 							Free consultation with our trusted doctors and get the best
 							recomendations
 						</p>
 					</li>
-					<li>
+					<li class="services-item">
 						<img
+							class="services-item-pic"
 							src="./images/emergencyimage.svg.svg"
 							width="84"
 							height="75"
 							alt="This is emergency icon image"
 							loading="lazy"
 						/>
-						<h3>Emergency care</h3>
-						<p>
+						<h3 class="services-item-title">Emergency care</h3>
+						<p class="services-item-desc">
 							You can get 24/7 urgent care for yourself or your children and
 							your lovely family
 						</p>
 					</li>
-					<li>
+					<li class="services-item">
 						<img
+							class="services-item-pic"
 							src="./images/trackingimage.svg.svg"
 							width="75"
 							height="102"
 							alt="This is tracking icon image"
 							loading="lazy"
 						/>
-						<h3>Tracking</h3>
-						<p>Track and save your medical history and health data</p>
+						<h3 class="services-item-title">Tracking</h3>
+						<p class="services-item-desc">
+							Track and save your medical history and health data
+						</p>
 					</li>
 				</ol>
-				<a href="#">Learn more</a>
+				<a class="services-link" href="#">Learn more</a>
 			</section>
-			<section>
-				<!-- <h2>Apps</h2> -->
-				<div>
+			<!-- Services section finish -->
+
+			<!-- Apps section start -->
+			<section class="apps">
+				<!-- <h2 class="apps-title">Apps</h2> -->
+				<div class="apps-wrapper">
 					<img
+						class="healthcare-pic"
 						src="./images/healthcareimage.png"
 						width="628"
 						height="463"
-						srcset="./images/healthcareimage.png 1x, ./images/healthcareimage@2x.png 2x"
+						srcset="
+							./images/healthcareimage.png    1x,
+							./images/healthcareimage@2x.png 2x
+						"
 						alt="This is Trafalgar company's healthcare section image and as you can see in this figure that company care your health affordable"
 						loading="lazy"
 					/>
-					<div>
-						<h3>Leading healthcare providers</h3>
-						<p>
+					<div class="healthcare-wrapper">
+						<h3 class="healthcare-title">Leading healthcare providers</h3>
+						<p class="healthcare-desc">
 							Trafalgar provides progressive, and affordable healthcare,
 							accessible on mobile and online for everyone. To us, it’s not just
 							work. We take pride in the solutions we deliver
 						</p>
-						<a href="#">Learn more</a>
+						<a class="healthcare-link" href="#">Learn more</a>
 					</div>
 				</div>
-				<div>
-					<div>
-						<h3>Download our mobile apps</h3>
-						<p>
+				<div class="apps-wrapper">
+					<div class="download-wrapper">
+						<h3 class="download-title">Download our mobile apps</h3>
+						<p class="download-desc">
 							Our dedicated patient engagement app and web portal allow you to
 							access information instantaneously (no tedeous form, long calls,
 							or administrative hassle) and securely
 						</p>
-						<a href="#">Learn more</a>
+						<a class="download-link" href="#">Learn more</a>
 					</div>
 					<img
+						class="download-pic"
 						src="./images/downloadimage.png"
 						width="665"
 						height="434"
-						srcset="./images/downloadimage.png 1x, ./images/downloadimage@2x.png 2x"
+						srcset="
+							./images/downloadimage.png    1x,
+							./images/downloadimage@2x.png 2x
+						"
 						alt="This is Trafalgar company's mobile apps image and if you want use mobile app in our company's you just Download it and to use easy"
 						loading="lazy"
 					/>
 				</div>
 			</section>
-			<article>
-				<div>
-					<h2>What our customer are saying</h2>
-					<span></span>
+			<!-- Apps section finish -->
+
+			<!-- Article start -->
+			<article class="site-article">
+				<div class="article-wrapper">
+					<h2 class="article-title">What our customer are saying</h2>
+					<span class="article-line"></span>
 				</div>
 				<div>
-					<div>
+					<div class="article-inner-wrapper">
 						<img
+							class="founder-image"
 							src="./images/founderimage.png"
 							width="149"
 							height="149"
-							srcset="./images/founderimage.png 1x, ./images/founderimage@2x.png 2x"
+							srcset="
+								./images/founderimage.png    1x,
+								./images/founderimage@2x.png 2x
+							"
 							alt="This is Edward Newgate's image and this human using Trafalgar company's services and he said his point"
+							loading="lazy"
 						/>
 						<div>
-							<strong>Edward Newgate</strong>
-							<p>Founder Circle</p>
+							<strong class="article-founder-name">Edward Newgate</strong>
+							<p class="article-founder-desc">Founder Circle</p>
 						</div>
 					</div>
-					<blockquote cite="Edward Newgate">
+					<blockquote class="article-quote" cite="Edward Newgate">
 						“Our dedicated patient engagement app and web portal allow you to
 						access information instantaneously (no tedeous form, long calls, or
 						administrative hassle) and securely”
 					</blockquote>
 				</div>
 			</article>
-			<section>
-				<div>
-					<h2>Check out our latest article</h2>
-					<span></span>
+			<!-- Article finish -->
+
+			<!-- Blogs section start -->
+			<section class="blogs">
+				<div class="blogs-wrapper">
+					<h2 class="blogs-title">Check out our latest article</h2>
+					<span class="blogs-line"></span>
 				</div>
-				<ul>
-					<li>
+				<ul class="blogs-list">
+					<li class="blogs-item">
 						<img
+							class="blogs-item-pic"
 							src="./images/diseasecheckimage.png"
 							width="380"
 							height="240"
-							srcset="./images/diseasecheckimage.png 1x, ./images/diseasecheckimage@2x.png 2x"
+							srcset="
+								./images/diseasecheckimage.png    1x,
+								./images/diseasecheckimage@2x.png 2x
+							"
 							alt="In this image describe, nurse is injecting patient"
 							loading="lazy"
 						/>
-						<h3>Disease detection, check up in the laboratory</h3>
-						<p>
+						<h3 class="blogs-item-title">
+							Disease detection, check up in the laboratory
+						</h3>
+						<p class="blogs-item-desc">
 							In this case, the role of the health laboratory is very important
 							to do a disease detection...
 						</p>
-						<a href="#">Read more</a>
+						<a class="blogs-item-link" href="#">Read more</a>
 					</li>
-					<li>
+					<li class="blogs-item">
 						<img
+							class="blogs-item-pic"
 							src="./images/herbalmedicine.png"
 							width="380"
 							height="240"
@@ -243,15 +304,18 @@
 							alt="In this image describe, doctor is seeing microbs or bacteries in microskop"
 							loading="lazy"
 						/>
-						<h3>Herbal medicines that are safe for consumption</h3>
-						<p>
+						<h3 class="blogs-item-title">
+							Herbal medicines that are safe for consumption
+						</h3>
+						<p class="blogs-item-desc">
 							Herbal medicine is very widely used at this time because of its
 							very good for your health...
 						</p>
-						<a href="#">Read more</a>
+						<a class="blogs-item-link" href="#">Read more</a>
 					</li>
-					<li>
+					<li class="blogs-item">
 						<img
+							class="blogs-item-pic"
 							src="./images/facialskinimage.png"
 							width="380"
 							height="240"
@@ -262,30 +326,29 @@
 							alt="In this image describe, woman care herself with facial skin healthcare"
 							loading="lazy"
 						/>
-						<h3>Natural care for healthy facial skin</h3>
-						<p>
+						<h3 class="blogs-item-title">
+							Natural care for healthy facial skin
+						</h3>
+						<p class="blogs-item-desc">
 							In this case, the role of the health laboratory is very important
 							to do a disease detection...
 						</p>
-						<a href="#">Read more</a>
+						<a class="blogs-item-link" href="#">Read more</a>
 					</li>
 				</ul>
-				<a href="#">View all</a>
+				<a class="blogs-link" href="#">View all</a>
 			</section>
+			<!-- Blogs section finish -->
 		</main>
-		<footer
-			style="
-				background-image: linear-gradient(
-					183deg,
-					#67c3f3 -8.57%,
-					#5a98f2 82.96%
-				);
-			"
-		>
-			<div>
-				<div>
-					<a href="/">
+		<!-- Main end -->
+
+		<!-- Footer start -->
+		<footer class="site-footer">
+			<div class="footer-wrapper">
+				<div class="footer-desc-wrapper">
+					<a class="footer-logo-link" href="/">
 						<img
+							class="footer-logo-pic"
 							src="./images/logo-white.svg"
 							width="172"
 							height="41"
@@ -293,46 +356,49 @@
 							loading="lazy"
 						/>
 					</a>
-					<p>
+					<p class="footer-desc">
 						Trafalgar provides progressive, and affordable healthcare,
 						accessible on mobile and online for everyone
 					</p>
-					<span>©Trafalgar PTY LTD 2020. All rights reserved</span>
+					<span class="footer-span-text">
+						©Trafalgar PTY LTD 2020. All rights reserved
+					</span>
 				</div>
-				<div>
-					<strong>Company</strong>
-					<ul>
-						<li>
-							<a href="#">About</a>
-							<a href="#">Apps</a>
-							<a href="#">Find a doctor</a>
-							<a href="#">Testimonials</a>
+				<div class="footer-inner-wrapper">
+					<strong class="footer-strong-text">Company</strong>
+					<ul class="footer-list">
+						<li class="footer-item">
+							<a class="footer-item-link" href="#">About</a>
+							<a class="footer-item-link" href="#">Apps</a>
+							<a class="footer-item-link" href="#">Find a doctor</a>
+							<a class="footer-item-link" href="#">Testimonials</a>
 						</li>
 					</ul>
 				</div>
-				<div>
-					<strong>Region</strong>
-					<ul>
-						<li>
-							<a href="#">Indonesia</a>
-							<a href="#">Singapore</a>
-							<a href="#">Hongkong</a>
-							<a href="#">Canada</a>
+				<div class="footer-inner-wrapper">
+					<strong class="footer-strong-text">Region</strong>
+					<ul class="footer-list">
+						<li class="footer-item">
+							<a class="footer-item-link" href="#">Indonesia</a>
+							<a class="footer-item-link" href="#">Singapore</a>
+							<a class="footer-item-link" href="#">Hongkong</a>
+							<a class="footer-item-link" href="#">Canada</a>
 						</li>
 					</ul>
 				</div>
-				<div>
-					<strong>Help</strong>
-					<ul>
-						<li>
-							<a href="#">Help center</a>
-							<a href="#">Contact support</a>
-							<a href="#">Instructions</a>
-							<a href="#">How it works</a>
+				<div class="footer-inner-wrapper">
+					<strong class="footer-strong-text">Help</strong>
+					<ul class="footer-list">
+						<li class="footer-item">
+							<a class="footer-item-link" href="#">Help center</a>
+							<a class="footer-item-link" href="#">Contact support</a>
+							<a class="footer-item-link" href="#">Instructions</a>
+							<a class="footer-item-link" href="#">How it works</a>
 						</li>
 					</ul>
 				</div>
 			</div>
 		</footer>
+		<!-- Footer finish -->
 	</body>
 </html>
