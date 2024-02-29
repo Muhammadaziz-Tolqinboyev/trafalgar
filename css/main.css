@@ -6,6 +6,14 @@ body {
 	margin: 0;
 }
 
+.header-navbar {
+	display: inline-block;
+}
+
+.header-item {
+	display: inline-block;
+}
+
 .logo-link {
 	text-decoration-line: none;
 }
@@ -18,6 +26,11 @@ body {
 	font-size: 18px;
 	color: #1f153480;
 	text-decoration-line: none;
+}
+
+.hero-inner-wrapper {
+	display: inline-block;
+	width: 440px;
 }
 
 .hero-title {	
@@ -36,6 +49,10 @@ body {
 	text-decoration-line: none;
 }
 
+.services-wrapper {
+	width: 952px;
+}
+
 .services-title {
 	font-size: 36px;
 	text-align: center;
@@ -51,6 +68,11 @@ body {
 	list-style-type: none;
 }
 
+.services-item {
+	display: inline-block;
+	width: 380px;
+}
+
 .services-item-title {
 	font-size: 24px;
 }
@@ -60,9 +82,17 @@ body {
 }
 
 .services-link {
+	display: inline-block;
 	font-size: 18px;
 	color: #458ff6;
+	border: 1.4px solid #458ff6;
+	border-radius: 55px;
 	text-decoration-line: none;
+}
+
+.healthcare-wrapper {
+	display: inline-block;
+	width: 435px;
 }
 
 .healthcare-title {
@@ -76,8 +106,15 @@ body {
 
 .healthcare-link {
 	font-size: 18px;
-	color: #7d7987;
+	color: #458ff6;
+	border: 1.4px solid #458ff6;
+	border-radius: 55px;
 	text-decoration-line: none;
+}
+
+.download-wrapper {
+	display: inline-block;
+	width: 440px;
 }
 
 .download-title {
@@ -92,11 +129,26 @@ body {
 .download-link {
 	font-size: 18px;
 	color: #458ff6;
+	border: 1.4px solid #458ff6;
+	border-radius: 55px;
 	text-decoration-line: none;
 }
 
 .site-article {
 	background-image: linear-gradient(208deg, #67c3f3 9.05%, #5a98f2 76.74%);
+}
+
+.article-inner-wrapper {
+	display: inline-block;
+}
+
+.article-founder-wrapper {
+	display: inline-block;
+}
+
+.quote-wrapper {
+	display: inline-block;
+	width: 403px;
 }
 
 .article-title {
@@ -117,6 +169,11 @@ body {
 .article-quote {
 	font-size: 19px;
 	color: #ffffffe6;
+}
+
+.blogs-item {
+	display: inline-block;
+	width: 380px;
 }
 
 .blogs-title {
@@ -144,10 +201,21 @@ body {
 .blogs-link {
 	font-size: 18px;
 	color: #458FF6;
+	border: 1.4px solid #458ff6;
+	border-radius: 55px;
 }
 
 .site-footer {
 	background-image: linear-gradient(183deg, #67c3f3 -8.57%, #5a98f2 82.96%);
+}
+
+.footer-desc-wrapper {
+	display: inline-block;
+	width: 386px;
+}
+
+.footer-inner-wrapper {
+	display: inline-block;
 }
 
 .footer-logo-link {
